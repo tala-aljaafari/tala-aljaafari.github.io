@@ -2,8 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Blog from './Components/Blog';
-import Notfound from './Components/Notfound';
 import registerServiceWorker from './registerServiceWorker';
 
 import { 
@@ -17,8 +15,6 @@ const routing = (
     <div>
     	<Switch>
         	<Route exact path="/" component={App} />
-        	<Route path="/blog" component={Blog} />
-        	<Route component={Notfound} />
       	</Switch>
   	</div>
   </Router>

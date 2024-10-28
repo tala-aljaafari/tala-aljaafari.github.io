@@ -49,9 +49,6 @@ class Header extends Component {
                 <div className="bullets">
                   <Typist.Delay ms={500} />
                     <p>I'm a Math/CS student at McGill University, and I</p>
-                    <p> <a className="smoothscroll" href="#portfolio">> often code & doodle</a> </p>
-                    <p> <a className="smoothscroll" href="#math">> love math</a> </p>
-                    <p> > occasionally write (coming soon) </p>
                 </div>
                 </Typist>
               <ul className="social">
